@@ -7,7 +7,7 @@ query complexity, readability, and analytical performance.
 
 ## Takeaways:
 
-The star schema required fewer joins and produced more readable SQL, while the snowflake schema reduced redundancy but increased query depth.
+Star schemas generally enable faster analytical queries with fewer joins and clearer SQL, while snowflake schemas minimise redundancy at the cost of deeper, more complex queries.
 
 ## Tech Stack
 - DuckDB
