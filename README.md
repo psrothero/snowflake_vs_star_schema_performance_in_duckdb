@@ -1,4 +1,4 @@
-Snowflake vs Star Schema in DuckDB
+# Snowflake vs Star Schema in DuckDB
 
 ## Overview
 This project compares snowflake and star schema designs using DuckDB.
