@@ -27,8 +27,4 @@ The star schema required fewer joins and produced more readable SQL, while the s
 - Fewer joins
 - Optimized for analytical queries
 
-## Takeaways:
-
-Both schemas represent identical business concepts and data. The star schema required fewer joins and produced more readable SQL, while the snowflake schema reduced redundancy but increased query depth.
-
 Both schemas represent identical business concepts and data. Based on a guided DataCamp project, with additional restructuring and implementation.
