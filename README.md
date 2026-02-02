@@ -5,6 +5,10 @@ This project compares snowflake and star schema designs using DuckDB.
 The same sales data is modeled in both schemas and queried to evaluate
 query complexity, readability, and analytical performance.
 
+## Takeaways:
+
+The star schema required fewer joins and produced more readable SQL, while the snowflake schema reduced redundancy but increased query depth.
+
 ## Tech Stack
 - DuckDB
 - SQL
@@ -27,4 +31,4 @@ query complexity, readability, and analytical performance.
 
 Both schemas represent identical business concepts and data. The star schema required fewer joins and produced more readable SQL, while the snowflake schema reduced redundancy but increased query depth.
 
-Based on a guided DataCamp project, with additional restructuring and implementation.
+Both schemas represent identical business concepts and data. Based on a guided DataCamp project, with additional restructuring and implementation.
